@@ -13,9 +13,7 @@ class MP3Importer
   end
   
   def import
-    # binding.pry
     files
-    binding.pry
     Song.new_by_file_name
   
   end  
