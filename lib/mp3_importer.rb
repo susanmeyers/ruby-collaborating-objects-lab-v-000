@@ -16,7 +16,7 @@ class MP3Importer
     # binding.pry
     files
     binding.pry
-  = Song.new_by_file_name
+    Song.new_by_file_name
   
   end  
 end
