@@ -6,7 +6,7 @@ class MP3Importer
   def initialize(test_music_path)
  #binding.pry
     @path = test_music_path
-    Song.new_by_filename(song)
+    Song.new_by_filename
   end
   
   def files
